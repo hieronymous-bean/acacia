@@ -1,0 +1,44 @@
+{
+  "name": "acacia",
+  "npmName": "acacia",
+  "version": "v0.0.0-alpha",
+  "license": "MIT",
+  "description": "Lightweight package for rendering JSON and XML data as treeview objects.",
+  "keywords": [
+    "treeview"
+  ],
+  "main": "index.js",
+  "author": {
+    "name": "Jeffrey Brown",
+    "email": "jeffrey@jeffreyallanbrown.com",
+    "url": "https://jeffreyallanbrown.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hieronymous-bean/acacia.git"
+  },
+  "bugs": {
+    "url": "https://github.com/hieronymous-bean/acacia/issues"
+  },
+  "homepage": "https://github.com/hieronymous-bean/acacia#readme",
+  
+  "scripts": {
+    "setup": "npm install && npm run build",
+    "build": "gulp mainBuild",
+    "start": "node index"
+  },
+  "dependencies": {
+    "jquery": "^3.5.1"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "gulp-clean-css": "^4.3.0",
+    "gulp-concat": "^2.6.1",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-inject": "^5.0.5",
+    "gulp-inject-partials": "^1.0.5",
+    "gulp-rename": "^2.0.0",
+    "gulp-replace": "^1.0.0",
+    "gulp-sourcemaps": "^2.6.5"
+  }
+}

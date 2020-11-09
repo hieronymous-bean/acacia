@@ -23,26 +23,52 @@
 - [Contributing](#contributing)
 - [Credits](#credits)
 
-### System Requirements
+## System Requirements
+- Node.js ~14.15.0
+- NPM ~6.14.8
+
+Mostly for my own documentation, Borges currently utilizes the following application infrastructure:
+
+*Focus*                             |  *Tool(s)*
+------------------------------------|------------------------------------------------------------------------------------
+Engine                              | Node.js
+Primary Functions                   | Javascript
+Build and Deployment Automation     | Babel + Gulp
+Storage                             | 
+CI                                  | 
+Testing                             | 
+
+## :inbox_tray: Installation
+
+To get started, run:
+
+```
+npm run setup
+```
+
+This will install all required modules, run Gulp task automation, and compile application components. 
+
+## Configuration
 &nbsp;
 
-### Installation
+## Usage
 &nbsp;
 
-### Configuration
+## Features
 &nbsp;
 
-### Usage
+## Updates
 &nbsp;
 
-### Features
+## Contributing
 &nbsp;
 
-### Updates
-&nbsp;
+## Credits
 
-### Contributing
-&nbsp;
+In development
 
-### Credits
-&nbsp;
+<a href="https://www.buymeacoffee.com/hieronymousbean" target="_blank">
+    <img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: 41px !important;width: 174px !important;box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;-webkit-box-shadow: 0px 3px 2px 0px rgba(190, 190, 190, 0.5) !important;" >
+</a>
+
+Please :star: the project if you enjoy it - much appreciated!

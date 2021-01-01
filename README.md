@@ -8,7 +8,7 @@
 
 #### :tanabata_tree: Lightweight package for rendering JSON and XML data as treeview objects. 
 
-## Introduction
+## Quick Start
 
 &nbsp;
 
